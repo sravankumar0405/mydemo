@@ -1,0 +1,26 @@
+GitHub
+>> For the first time need to configure github in our system
+   git config --global user.name "sravankumar0405"
+
+   git config --global user.email "sammetasravan2002@gmail.com"
+   git config --global color.ui auto
+
+
+   Mandatory commands:
+   >> git init
+   >> git remote add origin https://github.com/sravankumar0405/mydemo.git
+
+
+   git pull origin main
+   git status
+   git add .
+   git status
+   git commit -m "commit message"
+   git push
+
+
+   >> create a new branch
+     git checkout -b "branchname"
+
+     create a  clone of our branch
+    >> git clone https://github.com/sravankumar0405/mydemo.git
